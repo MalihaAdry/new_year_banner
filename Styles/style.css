@@ -42,7 +42,9 @@
    border-radius: 16px;
    width: 1320px;
    height: 600px;
-   margin: 50px 100px 10px 100px;
+   margin: 0 auto;
+   margin-top: 50px;
+   /* margin: 50px 100px 10px 100px; */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -71,13 +73,14 @@
 }
 /* discount section */
 .offer{
-    padding: 120px 400px;
-    text-align: center;
+    /* padding: 120px 400px; */
+    margin: 0 auto;
+    height: 806px;
+    width: 802px;
 }
 .discount_titles{
-   height: 806px;
-   width: 802px;
-   
+   margin-top: 50px;
+  
 } 
 
 .header{
@@ -105,19 +108,26 @@
 .second_banner{
     width: 697px;
     height: 332px;
-    margin-top: 100px;
+     /* display: block;
+   justify-content: center;
+   align-items: center; */
+   
+  
 }
 .elements{
     display: flex;
     justify-content: space-between;
     padding: 68px 128px;
+   
 }
 .join_party{
    background-image: linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)),url('../images/Vectorrr.png');
    border-radius: 16px;
    width: 1320px;
    height: 600px;
-   margin: 50px 100px 100px 100px;
+   margin: 0 auto;
+   margin-top: 50px;
+   /* margin: 50px 100px 100px 100px; */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -148,7 +158,9 @@
    border-radius: 16px;
    width: 1320px;
    height: 482px;
-   margin: 50px 100px 140px 100px;
+   margin: 0 auto;
+   margin-top: 50px;
+   /* margin: 50px 100px 140px 100px; */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -166,7 +178,9 @@
 .coming_soon{
     width: 1320px;
     height: 463px;
-    margin: 50px 100px 10px 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* margin: 50px 100px 10px 100px; */
     display: flex;
     justify-content: space-evenly;
     gap: 70px;
